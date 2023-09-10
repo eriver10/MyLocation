@@ -5,7 +5,7 @@
 //  Created by Grey on 9/9/23.
 //
 
-import Foundation
+//import Foundation
 import UIKit
 
 
@@ -15,7 +15,8 @@ class CategoryPickerViewController: UITableViewController {
     
     
   var selectedCategoryName = ""
-    
+  var selectedIndexPath = IndexPath()
+  
   let categories = [
     "No Category",
     "Apple Store",
@@ -30,10 +31,10 @@ class CategoryPickerViewController: UITableViewController {
     "Park"
     ]
     
-    var selectedIndexPath = IndexPath()
     
     
     
+    //VIEWDIDLOAD\\
     
     override func viewDidLoad() {
       super.viewDidLoad()
